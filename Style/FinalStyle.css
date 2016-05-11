@@ -1,0 +1,208 @@
+@media (min-width: 0px){
+    html {
+        margin: 0px;
+        background-color: darkslategray;
+    }
+    
+    header {
+        background-color: darkred;
+        height: 110px;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    main {
+        width: 100%;
+        margin: auto;
+        margin-top: 2px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .pull-left {
+        float: left;
+    }
+
+    .pull-right {
+        float: right;
+    }
+
+    .img {
+        
+    }
+
+    .img-grid-box {
+        height: 400px;
+        margin: 5px 5px 5px 5px;
+        width: 98%;
+        position: relative;
+        background-color: whitesmoke;
+        position: relative;
+    }
+
+    .img-grid {
+        width: 98%;
+    }
+
+    .btn {
+        width: 100px;
+        background-color: transparent;
+        height: 50px;
+        color: whitesmoke;
+        margin-right: 20px;
+        padding: 25px 50px;
+        border: solid;
+        border-width: 2px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+    }
+
+    .btn-default {
+        border-color: whitesmoke;
+    }
+
+    .btn-default:hover {
+        background-color: red;
+    }
+
+    .nav-btn {
+        line-height: 110px;
+    }
+
+    .burger {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .visible-xs {
+        display: block;
+    }
+
+    .visible-l{
+        display: none;
+    }
+}
+
+@media (min-width: 481px){
+
+    /****** VISIBILITY ******/
+
+    
+
+    /******* LAYOUT ******/    
+    
+}
+
+@media (min-width: 768px){
+
+    /****** VISIBILITY ******/
+
+    .visible-sm{
+        display: block;
+    }
+
+    /******* LAYOUT ******/
+
+    .img-grid{
+        width: 98%;
+    }    
+    
+    
+}
+
+@media (min-width: 992px){
+
+    /****** VISIBILITY ******/
+
+    .visible-sm, .visible-xs{
+        display: none;
+    }
+
+    .visible-l{
+        display: block;
+    }
+
+    /******* LAYOUT ******/
+
+    .nav{
+        display: block;
+        list-style: none;
+        margin:0px;
+        width: inherit;
+    }
+
+    .nav li{
+        display: inline-block;
+        line-height: 105px;
+        background-color: darkred;
+        width: 150px;
+        text-align: center;
+    }
+
+    .nav li:hover{
+        background-color: red;
+    }
+
+    .nav li a{
+        color: white;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    h2{
+        color: whitesmoke;
+    }
+
+    .side-nav{
+        width: 20%;
+        background-color: darkred;
+        text-align: center;
+    }
+
+    .side-nav ul li{
+        height: 50px;
+        background-color: whitesmoke;
+        color: darkred;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: left;
+        margin-top: 3px;
+        line-height: 50px;
+        list-style: none;
+    }
+
+    .side-nav ul li a{
+        margin-left: 10px;
+    }
+
+    .img-grid{
+        width: 78%;
+    }
+
+    .img-grid-box{
+        width: 32%;
+    }    
+    
+    
+}
+
+@media (min-width: 1200px){
+
+    .img-grid-box{
+        width: 23%;
+    }
+
+    .img-grid{
+        width: 79%;
+    }    
+    
+}
+

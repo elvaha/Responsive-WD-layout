@@ -1,0 +1,18 @@
+Products = [
+    {product : {
+        name : 'Hammer',
+        price : 25.25,
+        description: 'Hit stuff with it'    
+    }},
+    {product1 : {
+        name : 'Screwdriver',
+        price : 20.50,
+        description : 'tighten your srews'
+    }},
+    {product2 : {
+        name : 'grinder',
+        price : 40.60,
+        description : 'use on metal and wood it doesn\'t care'
+    }}
+]
+
